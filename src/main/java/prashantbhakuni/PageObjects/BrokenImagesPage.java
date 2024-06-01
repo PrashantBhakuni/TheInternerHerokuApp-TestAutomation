@@ -16,7 +16,7 @@ public class BrokenImagesPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//a[@href='/broken_image']")
+	@FindBy(xpath="//a[@href='/broken_images']")
 	WebElement brokenImageBtn;
 	
 	@FindBy(xpath="//div[@class='example']/img")
