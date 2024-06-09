@@ -1,9 +1,7 @@
 package prashantbhakuni.Test;
 
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import prashantbhakuni.PageObjects.ContextMenuPage;
 import prashantbhakuni.TestComponents.BaseTest;
 

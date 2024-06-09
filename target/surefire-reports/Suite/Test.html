@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 01 17:17:07 IST 2024</td>
+<td>Started on:</td><td>Sun Jun 09 08:17:46 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10709 ms)</td>
+<tr><td>Total time:</td><td>69 seconds (69416 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,52 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='prashantbhakuni.Test.ExitIntentTest.exitIntentTest()'><b>exitIntentTest</b><br>Test class: prashantbhakuni.Test.ExitIntentTest</td>
+<td><div><pre>java.lang.AssertionError: expected [THIS IS A MODAL WINDOW] but found []
+	at prashantbhakuni.Test.ExitIntentTest.exitIntentTest(ExitIntentTest.java:16)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1043716026", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1043716026'><pre>java.lang.AssertionError: expected [THIS IS A MODAL WINDOW] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at prashantbhakuni.Test.ExitIntentTest.exitIntentTest(ExitIntentTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>prashantbhakuni.Test.ExitIntentTest@59662a0b</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,30 +122,75 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='prashantbhakuni.Test.ChallengingDOMTest.challengingDom()'><b>challengingDom</b><br>Test class: prashantbhakuni.Test.ChallengingDOMTest</td>
+<td title='prashantbhakuni.Test.BrokenImagesTest.brokenImages()'><b>brokenImages</b><br>Test class: prashantbhakuni.Test.BrokenImagesTest</td>
 <td></td>
-<td>1</td>
-<td>prashantbhakuni.Test.ChallengingDOMTest@15ff3e9e</td></tr>
+<td>0</td>
+<td>prashantbhakuni.Test.BrokenImagesTest@1623b78d</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.DropdownTest.dropdownTest()'><b>dropdownTest</b><br>Test class: prashantbhakuni.Test.DropdownTest</td>
+<td></td>
+<td>0</td>
+<td>prashantbhakuni.Test.DropdownTest@9597028</td></tr>
 <tr>
 <td title='prashantbhakuni.Test.ContextMenuTest.contextMenu()'><b>contextMenu</b><br>Test class: prashantbhakuni.Test.ContextMenuTest</td>
 <td></td>
-<td>0</td>
-<td>prashantbhakuni.Test.ContextMenuTest@49ec71f8</td></tr>
-<tr>
-<td title='prashantbhakuni.Test.BasicAuthTest.basicAuth()'><b>basicAuth</b><br>Test class: prashantbhakuni.Test.BasicAuthTest</td>
-<td></td>
-<td>0</td>
-<td>prashantbhakuni.Test.BasicAuthTest@1d2adfbe</td></tr>
+<td>1</td>
+<td>prashantbhakuni.Test.ContextMenuTest@4550bb58</td></tr>
 <tr>
 <td title='prashantbhakuni.Test.AddRemoveTest.addRemove()'><b>addRemove</b><br>Test class: prashantbhakuni.Test.AddRemoveTest</td>
 <td></td>
+<td>1</td>
+<td>prashantbhakuni.Test.AddRemoveTest@44ebcd03</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.DynamicLoadingTest.loadingForExample1()'><b>loadingForExample1</b><br>Test class: prashantbhakuni.Test.DynamicLoadingTest</td>
+<td></td>
+<td>11</td>
+<td>prashantbhakuni.Test.DynamicLoadingTest@4efbca5a</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.DragAndDropTest.dragAndDrop()'><b>dragAndDrop</b><br>Test class: prashantbhakuni.Test.DragAndDropTest</td>
+<td></td>
 <td>0</td>
-<td>prashantbhakuni.Test.AddRemoveTest@564fabc8</td></tr>
+<td>prashantbhakuni.Test.DragAndDropTest@49139829</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.DigestAuthenticationTest.basicAuth()'><b>basicAuth</b><br>Test class: prashantbhakuni.Test.DigestAuthenticationTest</td>
+<td></td>
+<td>3</td>
+<td>prashantbhakuni.Test.DigestAuthenticationTest@4ec4f3a0</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.ChallengingDOMTest.challengingDom()'><b>challengingDom</b><br>Test class: prashantbhakuni.Test.ChallengingDOMTest</td>
+<td></td>
+<td>2</td>
+<td>prashantbhakuni.Test.ChallengingDOMTest@c8c12ac</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.DynamicControlsTest.dynamicControls()'><b>dynamicControls</b><br>Test class: prashantbhakuni.Test.DynamicControlsTest</td>
+<td></td>
+<td>13</td>
+<td>prashantbhakuni.Test.DynamicControlsTest@6069db50</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.DisappearingElementsTest.disappearingElementsTest()'><b>disappearingElementsTest</b><br>Test class: prashantbhakuni.Test.DisappearingElementsTest</td>
+<td></td>
+<td>18</td>
+<td>prashantbhakuni.Test.DisappearingElementsTest@223191a6</td></tr>
 <tr>
 <td title='prashantbhakuni.Test.CheckboxesTest.checkboxes()'><b>checkboxes</b><br>Test class: prashantbhakuni.Test.CheckboxesTest</td>
 <td></td>
 <td>0</td>
-<td>prashantbhakuni.Test.CheckboxesTest@16d04d3d</td></tr>
+<td>prashantbhakuni.Test.CheckboxesTest@6adbc9d</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.EntryAdTest.entryAd()'><b>entryAd</b><br>Test class: prashantbhakuni.Test.EntryAdTest</td>
+<td></td>
+<td>2</td>
+<td>prashantbhakuni.Test.EntryAdTest@1b7cc17c</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.DynamicLoadingTest.loadingForExample2()'><b>loadingForExample2</b><br>Test class: prashantbhakuni.Test.DynamicLoadingTest</td>
+<td></td>
+<td>21</td>
+<td>prashantbhakuni.Test.DynamicLoadingTest@4efbca5a</td></tr>
+<tr>
+<td title='prashantbhakuni.Test.BasicAuthTest.basicAuth()'><b>basicAuth</b><br>Test class: prashantbhakuni.Test.BasicAuthTest</td>
+<td></td>
+<td>3</td>
+<td>prashantbhakuni.Test.BasicAuthTest@5c33f1a9</td></tr>
 </table><p>
 </body>
 </html>

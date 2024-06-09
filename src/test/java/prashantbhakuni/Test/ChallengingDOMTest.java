@@ -20,6 +20,7 @@ public class ChallengingDOMTest extends BaseTest {
 		System.out.println(challengingcompage.getButton2Text());
 		challengingcompage.clickButton2();
 		System.out.println(challengingcompage.getButton2Text());
+	
 	}
 
 }

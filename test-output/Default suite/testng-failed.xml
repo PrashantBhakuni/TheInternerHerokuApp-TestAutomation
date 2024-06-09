@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="prashantbhakuni.Test.ChallengingDOMTest">
+      <class name="prashantbhakuni.Test.ExitIntentTest">
         <methods>
+          <include name="exitIntentTest"/>
           <include name="launchWebsite"/>
-          <include name="challengingDom"/>
-          <include name="previousPage"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- prashantbhakuni.Test.ChallengingDOMTest -->
+      </class> <!-- prashantbhakuni.Test.ExitIntentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

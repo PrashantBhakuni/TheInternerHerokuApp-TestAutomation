@@ -9,18 +9,15 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BrokenImagesPage {
 
-	WebDriver driver;
-
 	public BrokenImagesPage(WebDriver driver) {
-		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
 	@FindBy(xpath="//a[@href='/broken_images']")
-	WebElement brokenImageBtn;
+	private WebElement brokenImageBtn;
 	
 	@FindBy(xpath="//div[@class='example']/img")
-	List<WebElement> allImages;
+	private List<WebElement> allImages;
 	
 	public void gotoBrokenImagePage() {
 		brokenImageBtn.click();

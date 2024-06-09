@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DigestAuthenticationPage {
 
-	WebDriver driver;
+	private WebDriver driver;
 
 	public DigestAuthenticationPage(WebDriver driver) {
 		this.driver = driver;
@@ -15,7 +15,7 @@ public class DigestAuthenticationPage {
 	}
 	
 	@FindBy(xpath="//p[contains(text(),'Congratulations! You must have the proper credentials.')]")
-	WebElement msg;
+	private WebElement msg;
 	
 	public void gotoDigestAuthPage() {
 		driver.get("https://admin:admin@the-internet.herokuapp.com/digest_auth");

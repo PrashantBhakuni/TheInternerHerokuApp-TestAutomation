@@ -3,41 +3,13 @@
 <suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" parallel="classes" name="Test(failed)" verbose="0">
     <classes>
-      <class name="prashantbhakuni.Test.ChallengingDOMTest">
+      <class name="prashantbhakuni.Test.ExitIntentTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="launchWebsite"/>
-          <include name="challengingDom"/>
-        </methods>
-      </class> <!-- prashantbhakuni.Test.ChallengingDOMTest -->
-      <class name="prashantbhakuni.Test.ContextMenuTest">
-        <methods>
-          <include name="contextMenu"/>
+          <include name="exitIntentTest"/>
           <include name="tearDown"/>
           <include name="launchWebsite"/>
         </methods>
-      </class> <!-- prashantbhakuni.Test.ContextMenuTest -->
-      <class name="prashantbhakuni.Test.CheckboxesTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="launchWebsite"/>
-          <include name="checkboxes"/>
-        </methods>
-      </class> <!-- prashantbhakuni.Test.CheckboxesTest -->
-      <class name="prashantbhakuni.Test.BasicAuthTest">
-        <methods>
-          <include name="launchWebsite"/>
-          <include name="tearDown"/>
-          <include name="basicAuth"/>
-        </methods>
-      </class> <!-- prashantbhakuni.Test.BasicAuthTest -->
-      <class name="prashantbhakuni.Test.AddRemoveTest">
-        <methods>
-          <include name="addRemove"/>
-          <include name="tearDown"/>
-          <include name="launchWebsite"/>
-        </methods>
-      </class> <!-- prashantbhakuni.Test.AddRemoveTest -->
+      </class> <!-- prashantbhakuni.Test.ExitIntentTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

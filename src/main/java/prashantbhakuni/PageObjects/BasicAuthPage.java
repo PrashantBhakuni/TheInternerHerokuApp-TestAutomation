@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BasicAuthPage {
 	
-	WebDriver driver;
+	private WebDriver driver;
 
 	public BasicAuthPage(WebDriver driver) {
 		this.driver = driver;
@@ -15,7 +15,7 @@ public class BasicAuthPage {
 	}
 	
 	@FindBy(xpath="//p[contains(text(),'Congratulations! You must have the proper credentials.')]")
-	WebElement msg;
+	private WebElement msg;
 	
 	public void gotoBasicAuthPage() {
 		driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");

@@ -10,6 +10,14 @@
       <class name="prashantbhakuni.Test.CheckboxesTest"/>
       <class name="prashantbhakuni.Test.ContextMenuTest"/>
       <class name="prashantbhakuni.Test.DigestAuthenticationTest"/>
+      <class name="prashantbhakuni.Test.DisappearingElementsTest"/>
+      <class name="prashantbhakuni.Test.DragAndDropTest"/>
+      <class name="prashantbhakuni.Test.DropdownTest"/>
+      <class name="prashantbhakuni.Test.DynamicControlsTest"/>
+      <class name="prashantbhakuni.Test.DynamicLoadingTest"/>
+      <class name="prashantbhakuni.Test.EntryAdTest"/>
+      <class name="prashantbhakuni.Test.ExitIntentTest"/>
+      <class name="prashantbhakuni.Test.FileDownloadTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

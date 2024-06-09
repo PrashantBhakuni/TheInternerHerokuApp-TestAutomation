@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ContextMenuPage {
 	
-	WebDriver driver;
+	private WebDriver driver;
 	
 	public ContextMenuPage(WebDriver driver) {
 		this.driver = driver;
@@ -16,10 +16,10 @@ public class ContextMenuPage {
 	}
 	
 	@FindBy(xpath="//a[@href='/context_menu']")
-	WebElement contextMenuPage;
+	private WebElement contextMenuPage;
 	
 	@FindBy(id="hot-spot")
-	WebElement box;
+	private WebElement box;
 	
 	public void gotoContextMenuPage() {
 		contextMenuPage.click();

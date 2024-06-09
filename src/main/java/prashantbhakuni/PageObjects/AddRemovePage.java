@@ -6,10 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class AddRemovePage {
-	WebDriver driver;
-
 	public AddRemovePage(WebDriver driver) {
-		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 

@@ -7,18 +7,16 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CheckboxesPage {
 	
-	WebDriver driver;
 	public CheckboxesPage(WebDriver driver)
 	{
-		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
 	@FindBy(xpath="//a[@href='/checkboxes']")
-	WebElement checkboxesBtn;
+	private WebElement checkboxesBtn;
 	
 	@FindBy(xpath="//input[@type='checkbox'][1]")
-	WebElement checkBox1;
+	private WebElement checkBox1;
 	
 	public void gotoCheckboxesPage() {
 		checkboxesBtn.click();
