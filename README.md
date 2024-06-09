@@ -2,8 +2,7 @@
 
 This repository contains an automation testing project written in **Java** using **Selenium WebDriver** and **TestNG** to solve [the internet heroku app](https://the-internet.herokuapp.com/) examples.
 
-Project Structure<br>
-The project is structured as follows:
+## Project Structure
 
 ```
 
@@ -40,4 +39,24 @@ To run the automation tests in this project, you'll need to have the following s
 - Selenium WebDriver
 - TestNG
 
-```
+
+<br><br>
+## Topics Covered
+
+A/B Testing<br>
+Add/Remove Elements<br>
+Basic Auth (user and pass: admin)<br>
+Broken Images<br>
+Challenging DOM<br>
+Checkboxes<br>
+Context Menu<br>
+Digest Authentication (user and pass: admin)<br>
+Disappearing Elements<br>
+Drag and Drop<br>
+Dropdown<br>
+Dynamic Controls<br>
+Dynamic Loading<br>
+Entry Ad<br>
+Exit Intent<br>
+File Download<br>
+
