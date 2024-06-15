@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="prashantbhakuni.TestComponents.Listeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes> 
+		<!-- note: keep the mouse pointer in the middle of the screen for this test -->
+      <class name="prashantbhakuni.Test.ExitIntentTest"/> 
+      <class name="prashantbhakuni.Test.HoversTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

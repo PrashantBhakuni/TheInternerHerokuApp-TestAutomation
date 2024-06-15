@@ -8,6 +8,8 @@ import prashantbhakuni.PageObjects.ExitIntentPage;
 import prashantbhakuni.TestComponents.BaseTest;
 
 public class ExitIntentTest extends BaseTest{
+	
+	//note: keep the mouse pointer in the middle of the screen for this test
 
 	@Test
 	public void exitIntentTest() throws InterruptedException, AWTException {

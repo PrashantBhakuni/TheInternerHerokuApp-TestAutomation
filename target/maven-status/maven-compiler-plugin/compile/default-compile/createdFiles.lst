@@ -1,6 +1,6 @@
-prashantbhakuni\PageObjects\ChallengingDOMPage.class
 prashantbhakuni\PageObjects\CheckboxesPage.class
+prashantbhakuni\PageObjects\BrokenImagesPage.class
+prashantbhakuni\PageObjects\ChallengingDOMPage.class
 prashantbhakuni\PageObjects\BasicAuthPage.class
 prashantbhakuni\PageObjects\ContextMenuPage.class
 prashantbhakuni\PageObjects\AddRemovePage.class
-prashantbhakuni\PageObjects\BrokenImagesPage.class

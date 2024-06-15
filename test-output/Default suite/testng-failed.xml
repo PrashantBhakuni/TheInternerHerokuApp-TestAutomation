@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="prashantbhakuni.Test.ExitIntentTest">
+      <class name="prashantbhakuni.Test.InputsTest">
         <methods>
-          <include name="exitIntentTest"/>
+          <include name="inputs"/>
           <include name="launchWebsite"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- prashantbhakuni.Test.ExitIntentTest -->
+      </class> <!-- prashantbhakuni.Test.InputsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

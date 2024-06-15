@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-09T12:16:45 IST" name="Default suite" finished-at="2024-06-09T12:16:51 IST" duration-ms="6017">
+  <suite started-at="2024-06-15T18:20:12 IST" name="Suite" finished-at="2024-06-15T18:21:14 IST" duration-ms="62282">
     <groups>
     </groups>
-    <test started-at="2024-06-09T12:16:45 IST" name="Default test" finished-at="2024-06-09T12:16:51 IST" duration-ms="6017">
+    <test started-at="2024-06-15T18:20:12 IST" name="Test" finished-at="2024-06-15T18:21:14 IST" duration-ms="62282">
       <class name="prashantbhakuni.Test.ExitIntentTest">
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.ExitIntentTest@740cae06]" started-at="2024-06-09T12:16:45 IST" name="launchWebsite" finished-at="2024-06-09T12:16:49 IST" duration-ms="4093" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.ExitIntentTest@2f16c6b3]" started-at="2024-06-15T18:20:12 IST" name="launchWebsite" finished-at="2024-06-15T18:20:19 IST" duration-ms="7219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="exitIntentTest()[pri:0, instance:prashantbhakuni.Test.ExitIntentTest@740cae06]" started-at="2024-06-09T12:16:49 IST" name="exitIntentTest" finished-at="2024-06-09T12:16:50 IST" duration-ms="701" status="PASS">
+        <test-method signature="exitIntentTest()[pri:0, instance:prashantbhakuni.Test.ExitIntentTest@2f16c6b3]" started-at="2024-06-15T18:20:19 IST" name="exitIntentTest" finished-at="2024-06-15T18:20:20 IST" duration-ms="898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitIntentTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.ExitIntentTest@740cae06]" started-at="2024-06-09T12:16:50 IST" name="tearDown" finished-at="2024-06-09T12:16:51 IST" duration-ms="1194" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.ExitIntentTest@2f16c6b3]" started-at="2024-06-15T18:20:20 IST" name="tearDown" finished-at="2024-06-15T18:20:22 IST" duration-ms="1199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- prashantbhakuni.Test.ExitIntentTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="prashantbhakuni.Test.HoversTest">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.HoversTest@2a62b5bc]" started-at="2024-06-15T18:20:22 IST" name="launchWebsite" finished-at="2024-06-15T18:21:12 IST" duration-ms="50545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method signature="hoverTest()[pri:0, instance:prashantbhakuni.Test.HoversTest@2a62b5bc]" started-at="2024-06-15T18:21:12 IST" name="hoverTest" finished-at="2024-06-15T18:21:13 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.HoversTest@2a62b5bc]" started-at="2024-06-15T18:21:13 IST" name="tearDown" finished-at="2024-06-15T18:21:14 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- prashantbhakuni.Test.HoversTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
