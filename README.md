@@ -14,7 +14,7 @@ This repository contains an automation testing project written in **Java** using
 |               |-- AddRemovePage.java
 |               |-- BasicAuthPage.java
 |               |-- ...
-|   |   |-- resources
+|   |       |-- resources
 |   |
 |   |-- test
 |       |-- java
